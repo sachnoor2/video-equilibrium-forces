@@ -1,0 +1,51 @@
+{
+  "fps": 30,
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "lang": "en-us",
+  "speed": 1.0,
+  "pad": 0.7,
+  "minSeconds": 4.0,
+  "scenes": [
+    {
+      "id": "01-title",
+      "text": "Two opposite forces, pushing and pulling at two different points of a rigid body. Normally that makes a body spin. But in this question the body is said to be in equilibrium, and the reason is hidden in the numbers. Let us find it."
+    },
+    {
+      "id": "02-question",
+      "text": "The question. Force one is two i, plus three j, plus four k, acting at the point three, three, four. Force two is minus two i, minus three j, minus four k, acting at the point one, zero, zero. Is the body in equilibrium?"
+    },
+    {
+      "id": "03-intuition",
+      "text": "Your instinct is correct in general. Equal and opposite forces at two different points usually form a couple. A couple gives zero net force but a real torque, so the body spins on the spot. A steering wheel is the classic example."
+    },
+    {
+      "id": "04-netforce",
+      "text": "So test the two conditions separately, starting with force. Add the two vectors component by component. Two minus two, three minus three, four minus four. The sum is zero, so the centre of mass cannot accelerate."
+    },
+    {
+      "id": "05-torque",
+      "text": "Now torque. Take moments about the origin. Position cross force for the first one gives zero, minus four, three. For the second one it gives zero, four, minus three. Add them, and every component cancels."
+    },
+    {
+      "id": "06-anypoint",
+      "text": "And you do not have to worry that we picked the origin. Whenever the net force is zero, the total torque comes out the same about every point in space. Zero about the origin therefore means zero everywhere."
+    },
+    {
+      "id": "07-secret",
+      "text": "Now the part that answers your doubt. Look at the two points of application. From one, zero, zero to three, three, four is the vector two, three, four. That is exactly force one, same direction, same length."
+    },
+    {
+      "id": "08-collinear",
+      "text": "So both points sit on one straight line, and both forces act along that same line. These are not two parallel forces with a gap between them. They are one tug of war along a single rope, and it pulls both ways equally."
+    },
+    {
+      "id": "09-couple",
+      "text": "A couple needs a gap between two different lines of action, and its torque is force times that perpendicular gap. Here the two lines of action are the same line, so the gap is zero, and so is the turning effect."
+    },
+    {
+      "id": "10-recap",
+      "text": "So check net force, then torque about any one point. Equal and opposite forces cancel completely only when their lines of action coincide. Give them a sideways gap and the body spins. Put them on one line, and it stays still."
+    }
+  ]
+}
