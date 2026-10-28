@@ -1,0 +1,80 @@
+{
+  "fps": 30,
+  "engine": "kokoro",
+  "voice": "am_michael",
+  "lang": "en-us",
+  "totalSeconds": 111.5,
+  "totalFrames": 3555,
+  "scenes": [
+    {
+      "id": "01-title",
+      "audio": "audio/01-title.wav",
+      "seconds": 11.0,
+      "frames": 351,
+      "voice": "am_michael"
+    },
+    {
+      "id": "02-question",
+      "audio": "audio/02-question.wav",
+      "seconds": 12.0,
+      "frames": 381,
+      "voice": "am_michael"
+    },
+    {
+      "id": "03-intuition",
+      "audio": "audio/03-intuition.wav",
+      "seconds": 11.5,
+      "frames": 366,
+      "voice": "am_michael"
+    },
+    {
+      "id": "04-netforce",
+      "audio": "audio/04-netforce.wav",
+      "seconds": 10.5,
+      "frames": 336,
+      "voice": "am_michael"
+    },
+    {
+      "id": "05-torque",
+      "audio": "audio/05-torque.wav",
+      "seconds": 11.5,
+      "frames": 366,
+      "voice": "am_michael"
+    },
+    {
+      "id": "06-anypoint",
+      "audio": "audio/06-anypoint.wav",
+      "seconds": 10.5,
+      "frames": 336,
+      "voice": "am_michael"
+    },
+    {
+      "id": "07-secret",
+      "audio": "audio/07-secret.wav",
+      "seconds": 11.5,
+      "frames": 366,
+      "voice": "am_michael"
+    },
+    {
+      "id": "08-collinear",
+      "audio": "audio/08-collinear.wav",
+      "seconds": 11.5,
+      "frames": 366,
+      "voice": "am_michael"
+    },
+    {
+      "id": "09-couple",
+      "audio": "audio/09-couple.wav",
+      "seconds": 10.5,
+      "frames": 336,
+      "voice": "am_michael"
+    },
+    {
+      "id": "10-recap",
+      "audio": "audio/10-recap.wav",
+      "seconds": 11.0,
+      "frames": 351,
+      "voice": "am_michael"
+    }
+  ]
+}
